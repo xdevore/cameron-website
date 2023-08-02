@@ -1,29 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, useEffect } from "react";
 import './App.css';
-import "semantic-ui-css/semantic.min.css";
-import { Button } from "semantic-ui-react";
+import Home from './components/Home';
+import NavBar from './components/NavBar';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-class App extends React.Component {
-  render() {
-    return (
+function App() {
+
+  return (
+    <Router>
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <Button>Click Here</Button>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/credits" element={<Home scrollToCredits />} />
+          <Route path="/beats" element={<Home scrollToBeats />} />
+        </Routes>
       </div>
-    );
-  }
+    </Router>
+  );
 }
-
 
 export default App;

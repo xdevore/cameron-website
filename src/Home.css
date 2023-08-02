@@ -1,0 +1,130 @@
+.home-section {
+  margin-left: 0;
+  padding-left: 0;
+  width: auto;
+  height: auto;
+}
+  
+.nav-img-row {
+  width: 1470px;
+  height: 782px;
+}
+
+.navbar {
+  position: relative;
+  top: 440px;
+  z-index: 1;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.name-title {
+  position: relative;
+  top: 490px;
+  color: #a8d5e5;
+  font-family: 'Sunflower';
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #000;
+}
+
+.opaque-image {
+  object-position: 50% 0;
+  opacity: 0.2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+}
+
+.spotplayer-col {
+  position: relative;
+  top: 100px;
+}
+
+.beatstarsplayer-container {
+  position: relative;
+  top: 200px;
+}
+
+.beatstarsplayer {
+  position: relative;
+  width:100%;
+  height: 800px;
+  max-width:1024px;
+}
+
+.credits-title {
+  position: relative;
+  top: 75px;
+  color: #a8d5e5;
+  font-family: 'Sunflower';
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #000;
+  z-index: 0;
+}
+
+.beats-title {
+  position: relative;
+  top: 150px;
+  color: #a8d5e5;
+  font-family: 'Sunflower';
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #000;
+  z-index: 0;
+}
+
+.about-title {
+  position: relative;
+  top: 250px;
+  padding-bottom: 800px;
+  color: #a8d5e5;
+  font-family: 'Sunflower';
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #000;
+  z-index: 0;
+}
+
+.beatstars-row {
+  position: relative;
+  padding-bottom: 250px;
+}
+
+.instagram-icon {
+  position: relative;
+  transform: scale(2.5);
+  top: 450px;
+  left: 50px;
+}
+
+.youtube-icon {
+  position: relative;
+  transform: scale(3.5);
+  top: 450px;
+  right:50px;
+}
+
+.beatstars-icon {
+  position: relative;
+  transform: scale(0.1);
+}
+
+.a-color {
+  color: #a8d5e5;
+}
